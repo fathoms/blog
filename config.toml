@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://fathoms.github.io"
 title   = "Hello Friend NG"
 
 DefaultContentLanguage = "en"
@@ -18,7 +18,7 @@ archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
-publishDir   = "public"
+publishDir   = "fathoms.github.io"
 
 buildDrafts  = false
 buildFuture  = false
