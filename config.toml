@@ -1,5 +1,5 @@
-baseURL = "https://fathoms.github.io"
-title   = "Hello Friend NG"
+baseURL = "/"
+title   = "This title is to be changed!"
 
 DefaultContentLanguage = "en"
 
