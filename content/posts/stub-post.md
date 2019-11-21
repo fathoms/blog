@@ -1,7 +1,7 @@
 ---
 title: "Stub Post"
 date: 2019-11-21T14:29:20Z
-draft: true
+draft: false
 toc: false
 images:
 tags:
