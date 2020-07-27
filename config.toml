@@ -1,11 +1,12 @@
 baseURL = "/"
-title   = "This title is to be changed!"
+title   = "深み"
 
 DefaultContentLanguage = "en"
 
 theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
+pygmentsUseClasses=true
 PygmentsStyle = "monokai"
 
 rssLimit  = 10  # Maximum number of items in the RSS feed.
@@ -19,6 +20,7 @@ contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
 publishDir   = "fathoms.github.io"
+staticDir    = "static"
 
 buildDrafts  = false
 buildFuture  = false
@@ -38,7 +40,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "Luna Fountain"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -53,12 +55,14 @@ disableHugoGeneratorInject = false
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
+  toc = true
+
   # Metadata mostly used in document's head
   description = "Nice theme for homepages and blogs"
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = " "
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -91,7 +95,7 @@ disableHugoGeneratorInject = false
     logoText     = "$ cd /home/"
     logoHomeLink = "/"
     # Set to a valid CSS color to change the cursor in the logo.
-    # logoColor    = "#67a2c9"
+    logoCursorColor    = "#ae81ff"
 
   # Social icons
   [[params.social]]

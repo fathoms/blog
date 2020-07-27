@@ -4,3 +4,6 @@
 [submodule "fathoms.github.io"]
 	path = fathoms.github.io
 	url = git@github.com:fathoms/fathoms.github.io.git
+[submodule "themes/hello-friend"]
+	path = themes/hello-friend
+	url = https://github.com/panr/hugo-theme-hello-friend.git
